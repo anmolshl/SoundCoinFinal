@@ -9,6 +9,7 @@ export class applicationAPI extends React.Component{
     private ContractInstance;
     private SoundAccess;
     private helpers;
+    private static contractAddress = "0x103e9e6480b10b1f28a64476ea04b5eeb375c68c";
 
     constructor(props){
         super(props);
@@ -332,7 +333,7 @@ export class applicationAPI extends React.Component{
                 "type": "function"
             }
         ]);
-        this.state.ContractInstance = MyContract.at("0x103e9e6480b10b1f28a64476ea04b5eeb375c68c");
+        this.state.ContractInstance = MyContract.at(applicationAPI.contractAddress);
     }
 
     //Returns a Promise
@@ -355,8 +356,29 @@ export class applicationAPI extends React.Component{
         return this.SoundAccess.removeSong(songID, pass, artistID);
     }
 
-    handOutToken(){
-        //this.ContractInstance.transferFrom()
+    //Returns a Promise
+    handOutToken(ethAddress){
+        let that = this;
+        return new Promise(function (fulfill, reject) {
+            that.state.ContractInstance.transferFrom(applicationAPI.contractAddress, ethAddress, 0.1, (err, res) => {
+                if(typeof err === undefined){
+                    fulfill({
+                        code: 204,
+                        body: {
+                            success: "Transfer successful!"
+                        }
+                    })
+                }
+                else{
+                    reject({
+                        code: 404,
+                        body: {
+                            err: err
+                        }
+                    })
+                }
+            })
+        })
     }
 
 
