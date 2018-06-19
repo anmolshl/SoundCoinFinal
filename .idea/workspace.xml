@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c18dae29-d46a-4c12-ba31-1930f86a34dd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/truff/contracts/SoundCoin.sol" afterPath="$PROJECT_DIR$/truff/contracts/SoundCoin.sol" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -88,16 +88,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -110,11 +100,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="3190" lean-forward="false" selection-start-line="4" selection-start-column="3190" selection-end-line="4" selection-end-column="3190" />
+            <state relative-caret-position="30">
+              <caret line="2" column="70" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SoundCoin.sol" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/truff/contracts/SoundCoin.sol">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="118" column="1" lean-forward="false" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -147,6 +147,7 @@
         <option value="$PROJECT_DIR$/src/js/SongData.js" />
         <option value="$PROJECT_DIR$/src/js/index.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/truff/contracts/SoundCoin.sol" />
       </list>
     </option>
   </component>
@@ -265,12 +266,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1529350975801</updated>
-      <workItem from="1529350978095" duration="9896000" />
+      <workItem from="1529350978095" duration="10453000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9896000" />
+    <option name="totallyTimeSpent" value="10453000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -326,14 +327,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/truff/contracts/SoundCoin.sol">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -416,8 +409,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="3190" lean-forward="false" selection-start-line="4" selection-start-column="3190" selection-end-line="4" selection-end-column="3190" />
+        <state relative-caret-position="30">
+          <caret line="2" column="70" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truff/contracts/SoundCoin.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="118" column="1" lean-forward="false" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
           <folding />
         </state>
       </provider>
