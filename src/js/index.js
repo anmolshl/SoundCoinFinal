@@ -22,6 +22,7 @@ export class applicationAPI extends React.Component{
         }else{
             this.web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"))
         }
+        web3.eth.defaultAccount = web3.eth.accounts[0];
         const MyContract = web3.eth.contract([
             {
                 "anonymous": false,
