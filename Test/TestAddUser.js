@@ -1,5 +1,5 @@
-//import Chai from 'chai';
-import SoundAccess from "../src/js/SoundAccess.js";
+import SoundAccess from "../src/js/SoundAccess";
+
 describe("Testing add user to database", function () {
     var expect = chai.expect;
     var soundAccess = new SoundAccess();

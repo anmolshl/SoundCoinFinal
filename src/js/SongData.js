@@ -1,4 +1,4 @@
-class SongData {
+export default class SongData {
 
     private name;
     private songID;
@@ -12,4 +12,4 @@ class SongData {
         this.assocEthAddr = assocEthAddr;
     }
 }
-export {SongData};
+

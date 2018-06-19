@@ -3,7 +3,8 @@ import { UserTypeArrs } from "./UserTypeArrs";
 import { existsSync } from "fs";
 import { GlobalHelpers } from "./GlobalHelpers";
 import { SongData } from "./SongData";
-class SoundAccess {
+
+export default class SoundAccess {
 
     private fs = require("fs");
     private userDatStr;
@@ -535,5 +536,3 @@ class SoundAccess {
         return this.songDatJs;
     }
 }
-
-export {SoundAccess};

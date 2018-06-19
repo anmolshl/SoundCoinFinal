@@ -1,4 +1,4 @@
-class GlobalHelpers {
+export default class GlobalHelpers {
 
     constructor() {
     }
@@ -15,6 +15,4 @@ class GlobalHelpers {
         return res;
     }
 }
-
-export {GlobalHelpers};
 

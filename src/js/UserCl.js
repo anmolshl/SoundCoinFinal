@@ -1,4 +1,4 @@
-class UserCl {
+export default class UserCl {
 
     constructor(userName, passWord, type, ethAddress, loyalty) {
         this.userName = userName;
@@ -28,5 +28,3 @@ class UserCl {
         return this.loyaltyPerStream;
     }
 }
-
-export {UserCl};

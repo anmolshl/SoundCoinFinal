@@ -5,7 +5,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import {UserLogin} from "./UserLogin";
 
-class applicationAPI {
+export default class applicationAPI {
 
     private ContractInstance;
     private SoundAccess;
@@ -83,7 +83,7 @@ class applicationAPI {
     //Returns a Promise
     getBalanceFromContract(userName){
         return new Promise(function (fulfill, reject) {
-            that.ContractInstance.getBalance(SoundAccess.getUserEthAddress(userName), (err, res) => {
+            that.ContractInstance.balanceOf(SoundAccess.getUserEthAddress(userName), (err, res) => {
                 if(typeof err === undefined){
                     fulfill({
                         code: 204,
@@ -114,4 +114,3 @@ class applicationAPI {
     }
 }
 
-export {applicationAPI};
