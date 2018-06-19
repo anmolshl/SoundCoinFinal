@@ -507,6 +507,9 @@ var SoundAccess = (function () {
         }
         return res;
     };
+    SoundAccess.prototype.getListOfSongs = function () {
+        return this.songDatJs;
+    };
     return SoundAccess;
 }());
 export default SoundAccess;

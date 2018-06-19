@@ -3,6 +3,7 @@ import SoundAccess from "./SoundAccess";
 import {GlobalHelpers} from "./GlobalHelpers";
 import React from 'react'
 import ReactDOM from 'react-dom'
+import {UserLogin} from "./UserLogin";
 
 export class applicationAPI {
 
@@ -11,6 +12,7 @@ export class applicationAPI {
     private helpers;
     private static contractAddress = "0x4a8d470f6a6fbaa472d2d63f126d3bb0623dff9c";
     private web3;
+    private loginData;
 
     constructor(){
         this.state = {};
@@ -47,11 +49,17 @@ export class applicationAPI {
         return this.SoundAccess.removeSong(songID, pass, artistID);
     }
 
+    getListOfAllSongs(){
+        return SoundAccess.getListOfSongs();
+    }
+
     //Returns a Promise
     transferTokenWhenStreaming(userNameFrom, songID){
         let that = this;
         return new Promise(function (fulfill, reject) {
-            that.ContractInstance.transferFrom(SoundAccess.getUserEthAddress(userNameFrom), SoundAccess.getArtistEthAddressFromSongID(songID), , (err, res) => {
+            var fromEthAddr = SoundAccess.getUserEthAddress(userNameFrom);
+            that.ContractInstance.approve(fromEthAddr, BigNumber(300000000));
+            that.ContractInstance.transferFrom(SoundAccess.getUserEthAddress(userNameFrom), SoundAccess.getArtistEthAddressFromSongID(songID), BigNumber(300000000), (err, res) => {
                 if(typeof err === undefined){
                     fulfill({
                         code: 204,
@@ -96,4 +104,12 @@ export class applicationAPI {
         })
     }
 
+    logInUser(userName, passWord) {
+        this.loginData = new UserLogin();
+        this.loginData.login(userName, passWord);
+    }
+
+    getLoggedInUser(){
+        return this.loginData.getLoggedInUserName();
+    }
 }

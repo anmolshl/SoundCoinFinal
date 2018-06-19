@@ -99,6 +99,9 @@ var UserLogin = (function () {
             this.songDatJs = JSON.parse(this.songDatStr);
         }
     };
+    UserLogin.prototype.getLoggedInUserName = function () {
+        return this.loggedInUser;
+    };
     return UserLogin;
 }());
 export { UserLogin };
