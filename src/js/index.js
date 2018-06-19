@@ -51,7 +51,7 @@ export class applicationAPI {
     transferTokenWhenStreaming(userNameFrom, songID){
         let that = this;
         return new Promise(function (fulfill, reject) {
-            that.ContractInstance.transferFrom(SoundAccess.getUserEthAddress(userNameFrom), ethAddress, 0.1, (err, res) => {
+            that.ContractInstance.transferFrom(SoundAccess.getUserEthAddress(userNameFrom), SoundAccess.getArtistEthAddressFromSongID(songID), , (err, res) => {
                 if(typeof err === undefined){
                     fulfill({
                         code: 204,
@@ -72,5 +72,28 @@ export class applicationAPI {
         })
     }
 
+    //Returns a Promise
+    getBalanceFromContract(userName){
+        return new Promise(function (fulfill, reject) {
+            that.ContractInstance.getBalance(SoundAccess.getUserEthAddress(userName), (err, res) => {
+                if(typeof err === undefined){
+                    fulfill({
+                        code: 204,
+                        body: {
+                            success: res
+                        }
+                    })
+                }
+                else{
+                    reject({
+                        code: 404,
+                        body: {
+                            err: err
+                        }
+                    })
+                }
+            })
+        })
+    }
 
 }

@@ -9,11 +9,11 @@ var SoundAccess = (function () {
         this.helpers = new GlobalHelpers();
         this.loadSoundAccess();
     }
-    SoundAccess.prototype.addUser = function (userName, pass, userType, ethAddress) {
+    SoundAccess.prototype.addUser = function (userName, pass, userType, ethAddress, loyalty) {
         var that = this;
         return new Promise(function (fulfill, reject) {
             if (!that.fs.existsSync("./Dat/UserDatabase.json")) {
-                var user = new UserCl(userName, pass, userType, ethAddress);
+                var user = new UserCl(userName, pass, userType, ethAddress, loyalty);
                 if (typeof that.userDatJs === "undefined") {
                     var newDataset = new UserTypeArrs();
                     if (userType === "Streamer") {
@@ -117,7 +117,7 @@ var SoundAccess = (function () {
                 }
             }
             else {
-                var user = new UserCl(userName, pass, userType, ethAddress);
+                var user = new UserCl(userName, pass, userType, ethAddress, loyalty);
                 if (userType === "Streamer") {
                     var streamers = that.userDatJs["streamers"];
                     if (that.helpers.checkIfUserExists(streamers, user)) {
@@ -491,6 +491,18 @@ var SoundAccess = (function () {
                     res = userx["passWord"];
                     break;
                 }
+            }
+        }
+        return res;
+    };
+    SoundAccess.prototype.getArtistEthAddressFromSongID = function (songID) {
+        var res = "";
+        var songArr = this.songDatJs;
+        for (var _i = 0, songArr_1 = songArr; _i < songArr_1.length; _i++) {
+            var songx = songArr_1[_i];
+            if (songx['songID'] === songID) {
+                res = songx['assocEthAddr'];
+                break;
             }
         }
         return res;

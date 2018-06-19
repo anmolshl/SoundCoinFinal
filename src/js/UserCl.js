@@ -1,9 +1,10 @@
 var UserCl = (function () {
-    function UserCl(userName, passWord, type, ethAddress) {
+    function UserCl(userName, passWord, type, ethAddress, loyalty) {
         this.userName = userName;
         this.passWord = passWord;
         this.type = type;
         this.ethAddress = ethAddress;
+        this.loyaltyPerStream = loyalty;
     }
     UserCl.prototype.getUsername = function () {
         return this.userName;
@@ -16,6 +17,9 @@ var UserCl = (function () {
     };
     UserCl.prototype.getethPass = function () {
         return this.passWord;
+    };
+    UserCl.prototype.getUserLoyalty = function () {
+        return this.loyaltyPerStream;
     };
     return UserCl;
 }());
