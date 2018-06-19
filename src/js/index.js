@@ -5,7 +5,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import {UserLogin} from "./UserLogin";
 
-export class applicationAPI {
+class applicationAPI {
 
     private ContractInstance;
     private SoundAccess;
@@ -113,3 +113,5 @@ export class applicationAPI {
         return this.loginData.getLoggedInUserName();
     }
 }
+
+export {applicationAPI};

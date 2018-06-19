@@ -1,12 +1,15 @@
 import { GlobalHelpers } from "./GlobalHelpers";
-var UserLogin = (function () {
-    function UserLogin() {
+
+class UserLogin {
+
+    constructor() {
         this.fs = require("fs");
         this.helpers = new GlobalHelpers();
         this.loadSoundAccess();
         this.credentialsCorrect = false;
     }
-    UserLogin.prototype.login = function (userName, pass) {
+
+    login(userName, pass) {
         var that = this;
         return new Promise(function (fulfill, reject) {
             if (typeof that.userDatJs === "undefined") {
@@ -42,11 +45,13 @@ var UserLogin = (function () {
                 }
             }
         });
-    };
-    UserLogin.prototype.checkIfUserExistsGlobally = function (userName) {
+    }
+
+    checkIfUserExistsGlobally(userName) {
         return this.checkIfUserExistsInList(userName, this.userDatJs['streamers']) || this.checkIfUserExistsInList(userName, this.userDatJs['consumers']) || this.checkIfUserExistsInList(userName, this.userDatJs['adAgencies']);
-    };
-    UserLogin.prototype.checkIfUserExistsInList = function (userName, userArr) {
+    }
+
+    checkIfUserExistsInList(userName, userArr) {
         var res = false;
         for (var _i = 0, userArr_1 = userArr; _i < userArr_1.length; _i++) {
             var userx = userArr_1[_i];
@@ -56,8 +61,9 @@ var UserLogin = (function () {
             }
         }
         return res;
-    };
-    UserLogin.prototype.getUserPass = function (userName) {
+    }
+
+    getUserPass(userName) {
         var res = "";
         var artistArr = this.userDatJs['creators'];
         for (var _i = 0, artistArr_1 = artistArr; _i < artistArr_1.length; _i++) {
@@ -88,8 +94,9 @@ var UserLogin = (function () {
             }
         }
         return res;
-    };
-    UserLogin.prototype.loadSoundAccess = function () {
+    }
+
+    loadSoundAccess() {
         if (this.fs.existsSync("./Dat/UserDatabase.json")) {
             this.userDatStr = this.fs.readFileSync("./Dat/UserDatabase.json", "utf8");
             this.userDatJs = JSON.parse(this.userDatStr);
@@ -99,10 +106,9 @@ var UserLogin = (function () {
             this.songDatJs = JSON.parse(this.songDatStr);
         }
     };
-    UserLogin.prototype.getLoggedInUserName = function () {
+
+    getLoggedInUserName() {
         return this.loggedInUser;
-    };
-    return UserLogin;
-}());
+    }
+}
 export { UserLogin };
-//# sourceMappingURL=UserLogin.js.map

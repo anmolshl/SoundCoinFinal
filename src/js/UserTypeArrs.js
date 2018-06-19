@@ -1,10 +1,8 @@
-var UserTypeArrs = (function () {
-    function UserTypeArrs() {
+class UserTypeArrs {
+    constructor() {
         this.streamers = [];
         this.creators = [];
         this.adAgencies = [];
     }
-    return UserTypeArrs;
-}());
+}
 export { UserTypeArrs };
-//# sourceMappingURL=UserTypeArrs.js.map

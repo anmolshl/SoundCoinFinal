@@ -1,27 +1,32 @@
-var UserCl = (function () {
-    function UserCl(userName, passWord, type, ethAddress, loyalty) {
+class UserCl {
+
+    constructor(userName, passWord, type, ethAddress, loyalty) {
         this.userName = userName;
         this.passWord = passWord;
         this.type = type;
         this.ethAddress = ethAddress;
         this.loyaltyPerStream = loyalty;
     }
-    UserCl.prototype.getUsername = function () {
+
+    getUsername () {
         return this.userName;
-    };
-    UserCl.prototype.getUserType = function () {
+    }
+
+    getUserType () {
         return this.type;
-    };
-    UserCl.prototype.getethAddress = function () {
+    }
+
+    getethAddress() {
         return this.ethAddress;
-    };
-    UserCl.prototype.getethPass = function () {
+    }
+
+    getethPass() {
         return this.passWord;
-    };
-    UserCl.prototype.getUserLoyalty = function () {
+    }
+
+    getUserLoyalty() {
         return this.loyaltyPerStream;
-    };
-    return UserCl;
-}());
-export { UserCl };
-//# sourceMappingURL=UserCl.js.map
+    }
+}
+
+export {UserCl};

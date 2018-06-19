@@ -3,13 +3,21 @@ import { UserTypeArrs } from "./UserTypeArrs";
 import { existsSync } from "fs";
 import { GlobalHelpers } from "./GlobalHelpers";
 import { SongData } from "./SongData";
-var SoundAccess = (function () {
-    function SoundAccess() {
-        this.fs = require("fs");
+class SoundAccess {
+
+    private fs = require("fs");
+    private userDatStr;
+    private userDatJs;
+    private songDatStr;
+    private songDatJs;
+    private helpers;
+
+    constructor() {
         this.helpers = new GlobalHelpers();
         this.loadSoundAccess();
     }
-    SoundAccess.prototype.addUser = function (userName, pass, userType, ethAddress, loyalty) {
+
+    addUser(userName, pass, userType, ethAddress, loyalty) {
         var that = this;
         return new Promise(function (fulfill, reject) {
             if (!that.fs.existsSync("./Dat/UserDatabase.json")) {
@@ -191,8 +199,9 @@ var SoundAccess = (function () {
                 }
             }
         });
-    };
-    SoundAccess.prototype.removeUser = function (userName, pass) {
+    }
+
+    removeUser(userName, pass) {
         var that = this;
         return new Promise(function (fulfill, reject) {
             if (!that.fs.existsSync("./Dat/UserDatabase.json")) {
@@ -223,8 +232,9 @@ var SoundAccess = (function () {
                 }
             }
         });
-    };
-    SoundAccess.prototype.addSong = function (song, artistID, songID, pass) {
+    }
+
+    addSong(song, artistID, songID, pass) {
         var that = this;
         return new Promise(function (fulfill, reject) {
             if (!that.fs.existsSync("./Dat/SongDatabase.json")) {
@@ -299,8 +309,9 @@ var SoundAccess = (function () {
                 }
             }
         });
-    };
-    SoundAccess.prototype.removeSong = function (songID, pass, artistID) {
+    }
+
+    removeSong(songID, pass, artistID) {
         var that = this;
         return new Promise(function (fulfill, reject) {
             if (!that.fs.existsSync("./Dat/SongDatabase.json")) {
@@ -341,30 +352,35 @@ var SoundAccess = (function () {
                 }
             }
         });
-    };
-    SoundAccess.prototype.destroySoundAccess = function () {
+    }
+
+    destroySoundAccess() {
         if (existsSync("./Dat/SongDatabase.json")) {
             this.fs.unlinkSync("./Dat/SongDatabase.json");
         }
         if (existsSync("./Dat/UserDatabase.json")) {
             this.fs.unlinkSync("./Dat/UserDatabase.json");
         }
-    };
-    SoundAccess.prototype.commitSoundAccess = function () {
+    }
+
+    commitSoundAccess() {
         if (existsSync("./Dat/SongDatabase.json")) {
             this.fs.writeFileSync("./Dat/SongDatabase.json", JSON.stringify(this.songDatJs));
         }
         if (existsSync("./Dat/UserDatabase.json")) {
             this.fs.writeFileSync("./Dat/UserDatabase.json", JSON.stringify(this.userDatJs));
         }
-    };
-    SoundAccess.prototype.commitUserDat = function () {
+    }
+
+    commitUserDat() {
         this.fs.writeFileSync("./Dat/UserDatabase.json", JSON.stringify(this.userDatJs));
-    };
-    SoundAccess.prototype.commitSongDat = function () {
+    }
+
+    commitSongDat() {
         this.fs.writeFileSync("./Dat/SongDatabase.json", JSON.stringify(this.songDatJs));
-    };
-    SoundAccess.prototype.loadSoundAccess = function () {
+    }
+
+    loadSoundAccess() {
         if (this.fs.existsSync("./Dat/UserDatabase.json")) {
             this.userDatStr = this.fs.readFileSync("./Dat/UserDatabase.json", "utf8");
             this.userDatJs = JSON.parse(this.userDatStr);
@@ -373,8 +389,9 @@ var SoundAccess = (function () {
             this.songDatStr = this.fs.readFileSync("./Dat/SongDatabase.json", "utf8");
             this.songDatJs = JSON.parse(this.songDatStr);
         }
-    };
-    SoundAccess.prototype.deleteUser = function (userName, pass) {
+    }
+
+    deleteUser(userName, pass) {
         var popped = false;
         var streamers = this.userDatJs['streamers'];
         var creators = this.userDatJs['creators'];
@@ -410,8 +427,9 @@ var SoundAccess = (function () {
             }
         }
         return popped;
-    };
-    SoundAccess.prototype.getArtistEthAddr = function (userName) {
+    }
+
+    getArtistEthAddr(userName) {
         var res = "";
         var artistArr = this.userDatJs['creators'];
         for (var _i = 0, artistArr_1 = artistArr; _i < artistArr_1.length; _i++) {
@@ -422,8 +440,9 @@ var SoundAccess = (function () {
             }
         }
         return res;
-    };
-    SoundAccess.prototype.getArtistPass = function (userName) {
+    }
+
+    getArtistPass(userName) {
         var res = "";
         var artistArr = this.userDatJs['creators'];
         for (var _i = 0, artistArr_2 = artistArr; _i < artistArr_2.length; _i++) {
@@ -434,8 +453,9 @@ var SoundAccess = (function () {
             }
         }
         return res;
-    };
-    SoundAccess.prototype.doesSongExist = function (songID) {
+    }
+
+    doesSongExist(songID) {
         var res = false;
         for (var _i = 0, _a = this.songDatJs; _i < _a.length; _i++) {
             var songx = _a[_i];
@@ -445,8 +465,9 @@ var SoundAccess = (function () {
             }
         }
         return res;
-    };
-    SoundAccess.prototype.deleteSong = function (songID) {
+    }
+
+    deleteSong(songID) {
         var res = false;
         var songDatJSx = this.songDatJs;
         for (var _i = 0, songDatJSx_1 = songDatJSx; _i < songDatJSx_1.length; _i++) {
@@ -462,8 +483,9 @@ var SoundAccess = (function () {
             }
         }
         return res;
-    };
-    SoundAccess.prototype.getUserEthAddress = function (userName) {
+    }
+
+    getUserEthAddress(userName) {
         var res = "";
         var artistArr = this.userDatJs['creators'];
         for (var _i = 0, artistArr_3 = artistArr; _i < artistArr_3.length; _i++) {
@@ -494,8 +516,9 @@ var SoundAccess = (function () {
             }
         }
         return res;
-    };
-    SoundAccess.prototype.getArtistEthAddressFromSongID = function (songID) {
+    }
+
+    getArtistEthAddressFromSongID(songID) {
         var res = "";
         var songArr = this.songDatJs;
         for (var _i = 0, songArr_1 = songArr; _i < songArr_1.length; _i++) {
@@ -506,11 +529,11 @@ var SoundAccess = (function () {
             }
         }
         return res;
-    };
-    SoundAccess.prototype.getListOfSongs = function () {
+    }
+
+    getListOfSongs() {
         return this.songDatJs;
-    };
-    return SoundAccess;
-}());
-export default SoundAccess;
-//# sourceMappingURL=SoundAccess.js.map
+    }
+}
+
+export {SoundAccess};
