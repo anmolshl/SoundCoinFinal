@@ -22,6 +22,8 @@ var UserLogin = (function () {
                     var passx = that.getUserPass(userName);
                     if (pass === passx) {
                         that.credentialsCorrect = true;
+                        that.loggedIn = true;
+                        that.loggedInUser = userName;
                         fulfill({
                             code: 204,
                             body: {

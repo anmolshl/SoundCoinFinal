@@ -463,6 +463,38 @@ var SoundAccess = (function () {
         }
         return res;
     };
+    SoundAccess.prototype.getUserEthAddress = function (userName) {
+        var res = "";
+        var artistArr = this.userDatJs['creators'];
+        for (var _i = 0, artistArr_3 = artistArr; _i < artistArr_3.length; _i++) {
+            var userx = artistArr_3[_i];
+            if (userx['userName'] === userName) {
+                res = userx["ethAddress"];
+                break;
+            }
+        }
+        artistArr = this.userDatJs['streamers'];
+        if (res.length === 0) {
+            for (var _a = 0, artistArr_4 = artistArr; _a < artistArr_4.length; _a++) {
+                var userx = artistArr_4[_a];
+                if (userx['userName'] === userName) {
+                    res = userx["passWord"];
+                    break;
+                }
+            }
+        }
+        artistArr = this.userDatJs['adAgencies'];
+        if (res.length === 0) {
+            for (var _b = 0, artistArr_5 = artistArr; _b < artistArr_5.length; _b++) {
+                var userx = artistArr_5[_b];
+                if (userx['userName'] === userName) {
+                    res = userx["passWord"];
+                    break;
+                }
+            }
+        }
+        return res;
+    };
     return SoundAccess;
 }());
 export default SoundAccess;
