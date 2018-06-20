@@ -1,4 +1,4 @@
-export default class UserTypeArrs {
+class UserTypeArrs {
     constructor() {
         this.streamers = [];
         this.creators = [];

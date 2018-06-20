@@ -1,17 +1,5 @@
-import { UserCl } from "./UserCl";
-import { UserTypeArrs } from "./UserTypeArrs";
-import { existsSync } from "fs";
-import { GlobalHelpers } from "./GlobalHelpers";
-import { SongData } from "./SongData";
-
-export default class SoundAccess {
-
-    private fs = require("fs");
-    private userDatStr;
-    private userDatJs;
-    private songDatStr;
-    private songDatJs;
-    private helpers;
+window.fs = fs;
+class SoundAccess {
 
     constructor() {
         this.helpers = new GlobalHelpers();
@@ -534,5 +522,31 @@ export default class SoundAccess {
 
     getListOfSongs() {
         return this.songDatJs;
+    }
+    
+    writeSongFile(){
+        window.webkitRequestFileSystem(window.PERSISTENT , 1024*1024, SaveDatFileBro);
+    }
+
+    SaveDatFileBro(localstorage) {
+        localstorage.root.getFile("songDat.json", {create: true}, function (DatFile) {
+            DatFile.createWriter(function (DatContent) {
+                var blob = new Blob(this.songDatJs, {type: "text/plain"});
+                DatContent.write(blob);
+            });
+        });
+    }
+
+    writeUserFile(){
+        window.webkitRequestFileSystem(window.PERSISTENT , 1024*1024, SaveDatFileBro1);
+    }
+
+    SaveDatFileBro1(localstorage) {
+        localstorage.root.getFile("userDat.json", {create: true}, function (DatFile) {
+            DatFile.createWriter(function (DatContent) {
+                var blob = new Blob(this.userDatJs, {type: "text/plain"});
+                DatContent.write(blob);
+            });
+        });
     }
 }

@@ -1,4 +1,4 @@
-export default class UserCl {
+class UserCl {
 
     constructor(userName, passWord, type, ethAddress, loyalty) {
         this.userName = userName;

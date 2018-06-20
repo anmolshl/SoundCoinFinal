@@ -1,21 +1,9 @@
-import Web3 from "web3"
-import SoundAccess from "./SoundAccess";
-import {GlobalHelpers} from "./GlobalHelpers";
-import React from 'react'
-import ReactDOM from 'react-dom'
-import {UserLogin} from "./UserLogin";
+window.Web3 = Web3;
 
-export default class applicationAPI {
-
-    private ContractInstance;
-    private SoundAccess;
-    private helpers;
-    private static contractAddress = "0x4a8d470f6a6fbaa472d2d63f126d3bb0623dff9c";
-    private web3;
-    private loginData;
+class applicationAPI {
 
     constructor(){
-        this.state = {};
+        this.contractAddress = "0x4a8d470f6a6fbaa472d2d63f126d3bb0623dff9c";
         this.SoundAccess = new SoundAccess();
         this.helpers = new GlobalHelpers();
         if(typeof this.web3 != 'undefined'){
@@ -31,7 +19,12 @@ export default class applicationAPI {
 
     //Returns a Promise
     addUser(userName, passWord, type, ethAddress){
-        return this.SoundAccess.addUser(userName, passWord, type, ethAddress);
+        if(type === "Creator") {
+            return this.SoundAccess.addUser(userName, passWord, type, ethAddress, BigNumber(30000000000));
+        }
+        else{
+            return this.SoundAccess.addUser(userName, passWord, type, ethAddress, BigNumber(0));
+        }
     }
 
     //Returns a Promise

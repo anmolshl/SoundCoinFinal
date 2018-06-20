@@ -1,6 +1,4 @@
-import { GlobalHelpers } from "./GlobalHelpers";
-
-export default class UserLogin {
+class UserLogin {
 
     constructor() {
         this.fs = require("fs");

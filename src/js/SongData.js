@@ -1,9 +1,4 @@
-export default class SongData {
-
-    private name;
-    private songID;
-    private artist;
-    private assocEthAddr;
+class SongData {
 
     constructor(name, songID, artist, assocEthAddr) {
         this.name = name;

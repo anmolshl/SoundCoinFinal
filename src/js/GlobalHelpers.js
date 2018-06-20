@@ -1,4 +1,4 @@
-export default class GlobalHelpers {
+class GlobalHelpers {
 
     constructor() {
     }
