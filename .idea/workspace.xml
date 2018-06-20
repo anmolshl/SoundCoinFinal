@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c18dae29-d46a-4c12-ba31-1930f86a34dd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCui/images/803253_wallpapers-music-pictures.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCui/images/abstract-art-black-and-white-wallpaper-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCui/images/dark_black_and_white_abstract_black_background_76353_1920x1080.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCui/images/musical-instrument-wallpapers-high-resolution-36959532.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCui/PlayMusic.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCui/PlayMusicz.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCui/images/27836256_10215572177645406_895399234_o-1024x576.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCui/App.css" afterPath="$PROJECT_DIR$/SCui/App.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCui/PlayMusic.html" afterPath="$PROJECT_DIR$/SCui/PlayMusic.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCui/Register.html" afterPath="$PROJECT_DIR$/SCui/Register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCui/RegisterUser.html" afterPath="$PROJECT_DIR$/SCui/RegisterUser.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCui/SignIn.html" afterPath="$PROJECT_DIR$/SCui/SignIn.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCui/signinform.css" afterPath="$PROJECT_DIR$/SCui/signinform.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SignIn.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SignIn.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SCui/SignIn.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="126" lean-forward="false" selection-start-line="21" selection-start-column="126" selection-end-line="21" selection-end-column="126" />
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="21" selection-end-column="126" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -75,8 +67,8 @@
       <file leaf-file-name="Register.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SCui/Register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="248">
+              <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -101,11 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayMusic.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PlayMusic.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SCui/PlayMusic.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="128" lean-forward="false" selection-start-line="9" selection-start-column="128" selection-end-line="9" selection-end-column="128" />
+            <state relative-caret-position="210">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -116,8 +108,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="91" lean-forward="true" selection-start-line="4" selection-start-column="91" selection-end-line="4" selection-end-column="113" />
+            <state relative-caret-position="30">
+              <caret line="2" column="70" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -126,8 +118,8 @@
       <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SCui/App.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="82" column="20" lean-forward="true" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
+            <state relative-caret-position="-749">
+              <caret line="46" column="83" lean-forward="false" selection-start-line="46" selection-start-column="83" selection-end-line="46" selection-end-column="83" />
               <folding />
             </state>
           </provider>
@@ -170,13 +162,13 @@
         <option value="$PROJECT_DIR$/src/js/SoundAccess.js" />
         <option value="$PROJECT_DIR$/src/js/All.js" />
         <option value="$PROJECT_DIR$/SCui/signinform.css" />
-        <option value="$PROJECT_DIR$/SCui/App.css" />
         <option value="$PROJECT_DIR$/SCui/RegisterUser.html" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/SCui/PlayMusicz.css" />
-        <option value="$PROJECT_DIR$/SCui/PlayMusic.html" />
-        <option value="$PROJECT_DIR$/SCui/Register.html" />
         <option value="$PROJECT_DIR$/SCui/SignIn.html" />
+        <option value="$PROJECT_DIR$/SCui/App.css" />
+        <option value="$PROJECT_DIR$/SCui/Register.html" />
+        <option value="$PROJECT_DIR$/SCui/PlayMusic.html" />
       </list>
     </option>
   </component>
@@ -326,7 +318,7 @@
       <option name="presentableId" value="Default" />
       <updated>1529350975801</updated>
       <workItem from="1529350978095" duration="21277000" />
-      <workItem from="1529455527799" duration="17340000" />
+      <workItem from="1529455527799" duration="18651000" />
     </task>
     <servers />
   </component>
@@ -348,7 +340,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38617000" />
+    <option name="totallyTimeSpent" value="39928000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -602,42 +594,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="91" lean-forward="true" selection-start-line="4" selection-start-column="91" selection-end-line="4" selection-end-column="113" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCui/PlayMusic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="128" lean-forward="false" selection-start-line="9" selection-start-column="128" selection-end-line="9" selection-end-column="128" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCui/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="82" column="20" lean-forward="true" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCui/Register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SCui/PlayMusicz.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -658,10 +614,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SCui/SignIn.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="126" lean-forward="false" selection-start-line="21" selection-start-column="126" selection-end-line="21" selection-end-column="126" />
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="21" selection-end-column="126" />
           <folding>
             <element signature="n#style#0;n#a#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCui/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-749">
+          <caret line="46" column="83" lean-forward="false" selection-start-line="46" selection-start-column="83" selection-end-line="46" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="70" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCui/Register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCui/PlayMusic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
