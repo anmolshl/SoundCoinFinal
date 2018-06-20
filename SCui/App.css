@@ -1,0 +1,206 @@
+@import url(https://fonts.googleapis.com/css?family=Bungee);
+@import url(https://fonts.googleapis.com/css?family=Passion+One);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+
+@font-face {
+  font-family: 'BebasNeue';
+  src: url('BebasNeue-Regular.ttf') format('truetype');
+}
+
+.ul{
+  list-style-type: none;
+}
+
+.c1{
+  color: ghostwhite;
+}
+
+.Welcome-font{
+  font-family: 'Bungee';
+  text-align: left;
+  font-size: 20px;
+  position: relative;
+  top: -130px;
+  left: -10px;
+}
+
+.Normal-title-font{
+  font-family: 'Passion One';
+  text-align: center;
+  font-size: 20px;
+}
+
+.Normal-font-Bebas {
+  font-family: 'BebasNeue';
+  text-align: center;
+  font-size: 15px;
+}
+
+.Normal-font {
+  font-family: 'Passion One';
+  text-align: center;
+  font-size: 15px;
+}
+
+.App {
+  text-align: left;
+  background-image: url('images/drake-page.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.App2 {
+  text-align: left;
+  background-image: url('images/chainsmokers-page.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.App3 {
+  text-align: left;
+  background-image: url('images/whitepaper-page.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.App4{
+  text-align: left;
+  background-image: url('images/mountain.png');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.App-right {
+  position: static;
+  padding-bottom: 10px;
+  text-align: right;
+}
+
+.App-center {
+  text-align: center;
+}
+
+.App-logo {
+  position: relative;
+  padding-left: 20px;
+  /*animation: App-logo-spin infinite 20s linear;*/
+  width: 70px; /* you can use % */
+  height: auto;
+  top: -90px;
+}
+
+.App-header {
+  height: 700px;
+  padding: 20px;
+  padding-left: 30px;
+  color: ghostwhite;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.drake-new-release {
+  font-size: 55px;
+  top: 20px;
+  font-family: 'BebasNeue';
+  padding-left: 500px;
+  padding-right: 220px;
+  display: inline-block;
+  text-align: right;
+  position: relative;
+  border-radius: 5px;
+  color: white;
+}
+
+.drake-gods-plan {
+  font-size: 75px;
+  font-family: 'BebasNeue';
+  padding-left: 500px;
+  display: inline;
+  position: relative;
+  text-align: right;
+  border-radius: 5px;
+  color: white;
+}
+
+.learn-more {
+  font-size: 40px;
+  top: 100px;
+  padding-right: 150px;
+  font-family: 'BebasNeue';
+  display: inline-block;
+  text-align: right;
+  position: relative;
+  border-radius: 5px;
+  color: white;
+}
+
+.container {
+  text-align: center;
+  margin: 40px 20px;
+  padding-bottom: 300px;
+}
+
+.button {
+  font-size: 12px;
+  font-family: 'Lucida Grande', 'Helvetica Neue', sans-serif;
+  font-weight: 900;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-top: 10px;
+
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 3px;
+
+  -webkit-box-shadow: 0 1px 0px rgba(255,255,255,0.1) inset, 0 0px 1px rgba(0,0,0,0.7);
+  -moz-box-shadow: 0 1px 0px rgba(255,255,255,0.1) inset, 0 0px 1px rgba(0,0,0,0.7);
+  box-shadow: 0 1px 0px rgba(255,255,255,0.1) inset, 0 0px 1px rgba(0,0,0,0.7);
+
+  background: rgba(0,0,0,0.1); /* #191919 */
+  border: 2px solid #ffffff;
+  padding: 15px 20px;
+}
+.button:active, .button:focus {
+  box-shadow: 0 0 0 transparent inset;
+}
+
+.tag {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+
+  -webkit-box-shadow: 0 -1px 0px rgba(255,255,255,0.1) inset;
+  -moz-box-shadow: 0 -1px 0px rgba(255,255,255,0.1) inset;
+  box-shadow: 0 -1px 0px rgba(255,255,255,0.1) inset;
+
+  background: rgba(0,0,0,0.2); /* #161616 */
+  padding: 10px 25px;
+}
+.tag:hover {
+  background: rgba(0,0,0,0.4); /* #101010 */
+}
+
+

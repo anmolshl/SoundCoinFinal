@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SoundCoin</title>
+    <link rel="stylesheet" href="App.css">
+</head>
+<body>
+<div class="App">
+    <div class="App-right">
+        <form action="RegisterUser.html">
+            <input type="submit" value=" Register " class="button">
+        </form>
+        <form action="SignIn.html">
+            <input type="submit" value="Sign In" class="button">
+        </form>
+    </div>
+    <header class="App-header">
+        <img class="App-logo" alt="logo" />
+        <h1 class="Welcome-font">SoundCoin</h1>
+        <div class="App-right">
+            <h2 class="drake-new-release">DRAKE'S NEW RELEASE</h2>
+            <h2 class="drake-gods-plan">GOD'S PLAN</h2>
+            <h2 class="learn-more">LEARN MORE...</h2>
+        </div>
+    </header>
+</div>
+<div class="App2">
+    <header class="App-header">
+
+    </header>
+</div>
+<div class="App3">
+    <header class="App-header">
+    </header>
+    <div class="App-center container">
+        <form action="iXfinalassignment.pdf">
+            <input type="submit" value="Whitepaper" class="button">
+        </form>
+    </div>
+    <div class="c1">
+        <ul class='ul'>
+            <li><Link to="/"><button class="button">Home</button></Link></li>
+            <li><Link to="/about"><button class="button" >About Us</button></Link></li>
+            <li><Link to="/contact"><button class="button" >Contact</button></Link></li>
+        </ul>
+
+        <Route path="/" component={Home}/>
+            <Route path="/about" component={About}/>
+                <Route path="/contact" component={Contact}/>
+    </div>
+</div>
+
+</body>
+</html>
