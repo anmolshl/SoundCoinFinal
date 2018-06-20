@@ -2,16 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c18dae29-d46a-4c12-ba31-1930f86a34dd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/All.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCui/images/803253_wallpapers-music-pictures.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCui/images/abstract-art-black-and-white-wallpaper-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCui/images/dark_black_and_white_abstract_black_background_76353_1920x1080.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCui/images/musical-instrument-wallpapers-high-resolution-36959532.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCui/PlayMusic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SCui/PlayMusicz.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCui/App.css" afterPath="$PROJECT_DIR$/SCui/App.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCui/Register.html" afterPath="$PROJECT_DIR$/SCui/Register.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCui/RegisterUser.html" afterPath="$PROJECT_DIR$/SCui/RegisterUser.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/GlobalHelpers.js" afterPath="$PROJECT_DIR$/src/js/GlobalHelpers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/SongData.js" afterPath="$PROJECT_DIR$/src/js/SongData.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/SoundAccess.js" afterPath="$PROJECT_DIR$/src/js/SoundAccess.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/UserCl.js" afterPath="$PROJECT_DIR$/src/js/UserCl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/UserLogin.js" afterPath="$PROJECT_DIR$/src/js/UserLogin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/UserTypeArrs.js" afterPath="$PROJECT_DIR$/src/js/UserTypeArrs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/index.js" afterPath="$PROJECT_DIR$/src/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCui/SignIn.html" afterPath="$PROJECT_DIR$/SCui/SignIn.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SCui/signinform.css" afterPath="$PROJECT_DIR$/SCui/signinform.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,70 +28,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GlobalHelpers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/GlobalHelpers.js">
+      <file leaf-file-name="signinform.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SCui/signinform.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="398">
+              <caret line="34" column="24" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="150" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SongData.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/SongData.js">
+      <file leaf-file-name="SignIn.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SCui/SignIn.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserLogin.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/UserLogin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserTypeArrs.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/UserTypeArrs.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegisterUser.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SCui/RegisterUser.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="610" column="38" lean-forward="true" selection-start-line="610" selection-start-column="38" selection-end-line="610" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SCui/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="21" column="126" lean-forward="false" selection-start-line="21" selection-start-column="126" selection-end-line="21" selection-end-column="126" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserCl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/UserCl.js">
+      <file leaf-file-name="RegisterUser.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SCui/RegisterUser.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="126" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="126" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registerServiceWorker.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SCui/registerServiceWorker.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -97,31 +72,62 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SoundAccess.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/SoundAccess.js">
+      <file leaf-file-name="Register.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SCui/Register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8040">
-              <caret line="536" column="11" lean-forward="true" selection-start-line="536" selection-start-column="11" selection-end-line="536" selection-end-column="11" />
+            <state relative-caret-position="120">
+              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayMusicz.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SCui/PlayMusicz.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="94" lean-forward="false" selection-start-line="20" selection-start-column="94" selection-end-line="20" selection-end-column="94" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="All.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/All.js">
+      <file leaf-file-name="Musical-Instrument-Wallpaper-Photos-Hd-Pics-For-Mobile-Depth-Of-Field-Instruments-Music-Old-Piano-Keys.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/Musical-Instrument-Wallpaper-Photos-Hd-Pics-For-Mobile-Depth-Of-Field-Instruments-Music-Old-Piano-Keys.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayMusic.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SCui/PlayMusic.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="816" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="9" column="128" lean-forward="false" selection-start-line="9" selection-start-column="128" selection-end-line="9" selection-end-column="128" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="91" lean-forward="true" selection-start-line="4" selection-start-column="91" selection-end-line="4" selection-end-column="113" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/index.js">
+      <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SCui/App.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="15">
+              <caret line="82" column="20" lean-forward="true" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -132,8 +138,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -151,14 +157,10 @@
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/dist/index.html" />
         <option value="$PROJECT_DIR$/truff/contracts/SoundCoin.sol" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/truff/test/TestAddUser.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/js/UserSession.js" />
         <option value="$PROJECT_DIR$/Test/TestAddUser.js" />
-        <option value="$PROJECT_DIR$/SCui/Register.html" />
-        <option value="$PROJECT_DIR$/SCui/SignIn.html" />
-        <option value="$PROJECT_DIR$/SCui/signinform.css" />
         <option value="$PROJECT_DIR$/src/js/SongData.js" />
         <option value="$PROJECT_DIR$/src/js/UserCl.js" />
         <option value="$PROJECT_DIR$/src/js/UserTypeArrs.js" />
@@ -167,7 +169,14 @@
         <option value="$PROJECT_DIR$/src/js/index.js" />
         <option value="$PROJECT_DIR$/src/js/SoundAccess.js" />
         <option value="$PROJECT_DIR$/src/js/All.js" />
+        <option value="$PROJECT_DIR$/SCui/signinform.css" />
+        <option value="$PROJECT_DIR$/SCui/App.css" />
         <option value="$PROJECT_DIR$/SCui/RegisterUser.html" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/SCui/PlayMusicz.css" />
+        <option value="$PROJECT_DIR$/SCui/PlayMusic.html" />
+        <option value="$PROJECT_DIR$/SCui/Register.html" />
+        <option value="$PROJECT_DIR$/SCui/SignIn.html" />
       </list>
     </option>
   </component>
@@ -219,6 +228,12 @@
             <path>
               <item name="SoundCoinFinal" type="b2602c69:ProjectViewProjectNode" />
               <item name="SoundCoinFinal" type="462c0819:PsiDirectoryNode" />
+              <item name="SCui" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SoundCoinFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoundCoinFinal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -226,6 +241,17 @@
               <item name="SoundCoinFinal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SoundCoinFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoundCoinFinal" type="462c0819:PsiDirectoryNode" />
+              <item name="truff" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SoundCoinFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoundCoinFinal" type="462c0819:PsiDirectoryNode" />
+              <item name="truff" type="462c0819:PsiDirectoryNode" />
+              <item name="contracts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -244,6 +270,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SCui/images" />
       <recent name="$PROJECT_DIR$/truff/contracts" />
       <recent name="$PROJECT_DIR$/src/js" />
     </key>
@@ -299,7 +326,7 @@
       <option name="presentableId" value="Default" />
       <updated>1529350975801</updated>
       <workItem from="1529350978095" duration="21277000" />
-      <workItem from="1529455527799" duration="10391000" />
+      <workItem from="1529455527799" duration="17340000" />
     </task>
     <servers />
   </component>
@@ -321,7 +348,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31668000" />
+    <option name="totallyTimeSpent" value="38617000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -454,20 +481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/truff/contracts/SoundCoin.sol">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1770">
-          <caret line="118" column="1" lean-forward="false" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/truff/test/TestAddUser.js" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -486,30 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SCui/Register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCui/signinform.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="32" lean-forward="false" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SCui/SignIn.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SCui/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -520,26 +509,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/UserTypeArrs.js">
+    <entry file="file://$PROJECT_DIR$/src/js/All.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/UserLogin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/UserCl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-11122">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -554,7 +527,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="-892">
           <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
           <folding />
         </state>
@@ -570,25 +543,126 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/SoundAccess.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8040">
+        <state relative-caret-position="488">
           <caret line="536" column="11" lean-forward="true" selection-start-line="536" selection-start-column="11" selection-end-line="536" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/All.js">
+    <entry file="file://$PROJECT_DIR$/src/js/UserCl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="816" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/UserLogin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-967">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/UserTypeArrs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truff/contracts/SoundCoin.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1770">
+          <caret line="118" column="1" lean-forward="false" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCui/signinform.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="34" column="24" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="150" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCui/registerServiceWorker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Musical-Instrument-Wallpaper-Photos-Hd-Pics-For-Mobile-Depth-Of-Field-Instruments-Music-Old-Piano-Keys.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="91" lean-forward="true" selection-start-line="4" selection-start-column="91" selection-end-line="4" selection-end-column="113" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCui/PlayMusic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="128" lean-forward="false" selection-start-line="9" selection-start-column="128" selection-end-line="9" selection-end-column="128" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCui/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="82" column="20" lean-forward="true" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCui/Register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCui/PlayMusicz.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="94" lean-forward="false" selection-start-line="20" selection-start-column="94" selection-end-line="20" selection-end-column="94" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SCui/RegisterUser.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="610" column="38" lean-forward="true" selection-start-line="610" selection-start-column="38" selection-end-line="610" selection-end-column="38" />
-          <folding />
+        <state relative-caret-position="420">
+          <caret line="28" column="126" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="126" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SCui/SignIn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="126" lean-forward="false" selection-start-line="21" selection-start-column="126" selection-end-line="21" selection-end-column="126" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
